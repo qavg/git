@@ -46,6 +46,14 @@ Moving around git commits
 
 ### 2. Relative Refs
 
+- Allows specifying commits without using their long hash
+- Move up 1 commit: `^`
+  - `git checkout main^` => HEAD points to main's previous commit
+- Move up # of commits: `~<#>`
+  - `git checkout HEAD~4` => points HEAD to 4th ancestor commit after current HEAD position
+- Reassign a branch to a commit with branch forcing `-f`:
+  - `git branch -f branchToMove HEAD~3`
+
 ### 3. Reverse Changes
 
 # Moving Work Around
