@@ -6,13 +6,23 @@
 
 - `git commit -m "commit message"`
 
-# Ramping Up
-
 ### 2. Branch
 
 Branch early, branch often:
 
 - `git checkout -b branchName`
+
+### 3. Merge
+
+Branching and Merging:
+
+- `git checkout branch1`
+- `git commit`
+- `git checkout branch2`
+- `git commit`
+- `git merge branch1`: merge branch 1 into current branch2
+
+# Ramping Up
 
 ### Detach HEAD
 
