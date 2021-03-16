@@ -56,6 +56,17 @@ Moving around git commits
 
 ### 3. Reverse Changes
 
+- `git reset`:
+  - move branch backwards as if commit(s) never happened
+  - rewrite history
+  - recommended for local branches only
+  - `git checkout branch && git reset HEAD^`
+- `git revert`:
+  - share reverted changes with others
+  - adds reverting commit on top of current
+  - recommended for remote branches
+  - `git checkout branch && git revert HEAD`
+
 # Moving Work Around
 
 ### Cherry-pick
