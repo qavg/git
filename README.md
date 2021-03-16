@@ -8,6 +8,12 @@
 
 # Ramping Up
 
+### 2. Branch
+
+Branch early, branch often:
+
+- `git checkout -b branchName`
+
 ### Detach HEAD
 
 ### Relative Refs
