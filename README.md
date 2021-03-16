@@ -93,6 +93,22 @@ not knowing which commit wanted
 
 ### 2. Juggle Commits
 
+- reorder desired commits on top
+  - `git rebase -i desiredCommitRange`
+- make changes
+  - `git commit --amend`
+- reorder back to previous order
+  - `git rebase -i desiredCommitRange`
+- move main to the updated caption
+
+  - `git rebase caption main`
+
+- use `git cherry-pick` to avoid too much reordering
+  - `git checkout main`
+  - `git cherry-pick oldCommitToChange`
+  - `git commit --amend`
+  - `git cherry-pick latestCommit`
+
 ### 3. Git Tags
 
 ### 4. Git Describe
