@@ -87,15 +87,15 @@ not knowing which commit wanted
 
 # A Mixed Bag
 
-### Grab 1 commit
+### 1. Grab 1 commit
 
-### Juggle Commits
+- `git checkout main && git cherry-pick commit#`
 
-### Juggle Commits
+### 2. Juggle Commits
 
-### Git Tags
+### 3. Git Tags
 
-### Git Describe
+### 4. Git Describe
 
 # Advanced Topics
 
