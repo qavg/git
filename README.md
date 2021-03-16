@@ -69,9 +69,21 @@ Moving around git commits
 
 # Moving Work Around
 
-### Cherry-pick
+"I want this work here and that work there"
 
-### Interactive Rebase
+### 1. Cherry-pick
+
+knowing which commit to get and their hashes
+
+- `git cherry-pick c1 c2 c3...`:
+  - copy a series of commits, then paste top of current HEAD
+
+### 2. Interactive Rebase
+
+not knowing which commit wanted
+
+- `git rebase -i HEAD~<#Commits-including-HEAD>`
+- `git rebase -i branchName`
 
 # A Mixed Bag
 
