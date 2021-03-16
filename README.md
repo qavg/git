@@ -22,6 +22,18 @@ Branching and Merging:
 - `git commit`
 - `git merge branch1`: merge branch 1 into current branch2
 
+### 4. Rebase
+
+Rebase: copy sets of commits, paste elsewhere
+=> linear commit sequence:
+
+- `git checkout bugFix`
+- `git commit`
+- `git checkout main`
+- `git commit`
+- `git checkout bugFix`
+- `git rebase main` => rebase `bugFix` onto `main`
+
 # Ramping Up
 
 ### Detach HEAD
