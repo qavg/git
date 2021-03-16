@@ -36,11 +36,17 @@ Rebase: copy sets of commits, paste elsewhere
 
 # Ramping Up
 
-### Detach HEAD
+Moving around git commits
 
-### Relative Refs
+### 1. Detach HEAD
 
-### Reverse Changes
+- HEAD: usually points to most recent commit
+- Detaching HEAD: attach HEAD to a commit, instead of branch
+- `HEAD -> main -> C1` becomes `HEAD -> C1`
+
+### 2. Relative Refs
+
+### 3. Reverse Changes
 
 # Moving Work Around
 
