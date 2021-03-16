@@ -2,13 +2,9 @@
 
 # Intro
 
-### Git Commits
+### 1. Git Commits
 
-### Branch
-
-### Merge
-
-### Rebase
+- `git commit -m "commit message"`
 
 # Ramping Up
 
